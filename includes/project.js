@@ -57,7 +57,9 @@ $(function () {
         if (!checkParams(creds)) { 
             var config = {
                 uri: creds.uri,
-                wsServers: [creds.wsServer],
+                transportOptions: {
+                    wsServers: creds.wsServer,
+                },
                 authorizationUser: creds.authName,
                 password: creds.password,
                 // hackIpInContact: true,
