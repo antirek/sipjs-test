@@ -1,0 +1,22 @@
+{
+  "name": "sipjs-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antirek/sipjs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antirek/sipjs-test/issues"
+  },
+  "homepage": "https://github.com/antirek/sipjs-test#readme",
+  "dependencies": {
+    "sip.js": "^0.14.2"
+  }
+}
