@@ -3,12 +3,14 @@ var wsServers = localStorage.getItem('wsServers');
 var uri = localStorage.getItem('uri');
 var authorizationUser = localStorage.getItem('authorizationUser');
 var displayName = localStorage.getItem('displayName');
+var phone = localStorage.getItem('phone');
 
 console.log('uri', uri);
 console.log('password', password);
 console.log('wsServers', wsServers);
 console.log('authorizationUser', authorizationUser);
 console.log('displayName', displayName);
+console.log('phone', phone);
 
 var options = {
     media: {
@@ -43,7 +45,10 @@ endButton.addEventListener("click", function () {
 
 simple.on('ringing', function() {
     simple.answer();
-  });
+});
 
-//makes the call
-simple.call('welcome@onsip.com');
+var startButton = document.getElementById('startCall');
+startButton.addEventListener("click", function () {
+    simple.call(phone);
+    alert("Call start");
+}, false);
