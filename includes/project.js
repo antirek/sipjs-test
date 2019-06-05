@@ -67,6 +67,17 @@ $(function () {
                 log: {
                     builtinEnabled: true,
                 },
+                autostart: false,
+                displayName: creds.name,
+                hackIpInContact: false,
+                hackViaTcp: false,
+                hackWssInTransport: false,
+                sessionDescriptionHandlerFactoryOptions: {
+                    constraints: {
+                        audio: true,
+                        video: false
+                      }
+                }
             };
 
             Phone = new phone();
