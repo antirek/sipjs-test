@@ -60,18 +60,11 @@ $(function () {
                 wsServers: creds.wsServer,
                 authorizationUser: creds.authName,
                 password: creds.password,
-                hackIpInContact: true,
+                // hackIpInContact: true,
                 register: true,
                 log: {
-                    builtinEnabled: false,
+                    builtinEnabled: true,
                 },
-                stunServers: [
-                    "stun.l.google.com:19302",
-                    "stun.stunprotocol.org:3478",
-                    "stun.voiparound.com",
-                    "stun.voipbuster.com",
-                    "stun.turnservers.com:3478"
-                ],
             };
 
             Phone = new phone();
