@@ -1,0 +1,40 @@
+{
+  "name": "sip.js",
+  "version": "0.7.2",
+  "authors": [
+    "Will Mitchell <will@onsip.com>",
+    "James Criscuolo <james@onsip.com>",
+    "Eric Green <eric.green@onsip.com>",
+    "Joseph Frazier <joseph@onsip.com>"
+  ],
+  "description": "A JavaScript SIP stack for WebRTC, instant messaging, and more!",
+  "main": "dist/sip.js",
+  "keywords": [
+    "sip",
+    "javascript",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "homepage": "http://sipjs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "*.md",
+    "Gruntfile.js",
+    "*.html",
+    "*.json",
+    "LICENSE",
+    "src",
+    "sip-*.*"
+  ],
+  "_release": "0.7.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.7.2",
+    "commit": "362218823d6578243645279ee8885168121ae7c4"
+  },
+  "_source": "git://github.com/onsip/SIP.js.git",
+  "_target": "~0.7.2",
+  "_originalSource": "sip.js"
+}
