@@ -67,7 +67,7 @@ $(function () {
                 log: {
                     builtinEnabled: true,
                 },
-                autostart: false,
+                autostart: true,
                 displayName: creds.name,
                 hackIpInContact: false,
                 hackViaTcp: false,
