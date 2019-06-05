@@ -164,5 +164,5 @@ phone.prototype.release = function () {
 phone.prototype.init = function (config) {    
     this.initLine(config);
     this.initEventsLine();
-    this.line.register();
+    // this.line.register();
 };
