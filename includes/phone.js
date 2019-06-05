@@ -71,7 +71,7 @@ phone.prototype.startTime = function () {
 
 phone.prototype.invite = function (number) {
     var options = {
-        media: {
+        sessionDescriptionHandlerOptions: {
             constraints: {
                 audio: true,
                 video: false,

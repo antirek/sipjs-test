@@ -69,7 +69,7 @@ $(function () {
                 },
                 autostart: true,
                 displayName: creds.name,
-                hackIpInContact: false,
+                hackIpInContact: true,
                 hackViaTcp: false,
                 hackWssInTransport: false,
                 sessionDescriptionHandlerFactoryOptions: {
