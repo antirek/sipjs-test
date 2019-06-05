@@ -1,16 +1,20 @@
 var password = localStorage.getItem('password');
 var wsServers = localStorage.getItem('wsServers');
 var uri = localStorage.getItem('uri');
+var authorizationUser = localStorage.getItem('authorizationUser');
+var displayName = localStorage.getItem('displayName');
 
 console.log('uri', uri);
 console.log('password', password);
 console.log('wsServers', wsServers);
+console.log('authorizationUser', authorizationUser);
+console.log('displayName', displayName);
 
 var options = {
     media: {
       local: {
-        video: false, // document.getElementById('localVideo'),
-        audio: document.getElementById('localVideo')
+        video: document.getElementById('localVideo'),
+        // audio: document.getElementById('localVideo')
       },
       remote: {
         video: false, // document.getElementById('remoteVideo'),
@@ -22,6 +26,8 @@ var options = {
         uri: uri,
         wsServers: [wsServers],
         password: password,
+        authorizationUser: authorizationUser,
+        displayName: displayName,
     }
   };
 
